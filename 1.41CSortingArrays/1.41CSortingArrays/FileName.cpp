@@ -3,10 +3,13 @@
 #include<ctype.h>
 #include<string.h>
 #include<math.h>
+#include <time.h>
 
 
 int main()
 {
+	srand(time(NULL));
+	
 	int i, temp, swapped;
 	const int howMany = 10;
 	int goals[howMany];
