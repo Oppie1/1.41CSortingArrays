@@ -30,7 +30,7 @@ int main()
 		for (i = 0; i < howMany - 1; i++) {
 
 			if (goals[i] > goals[i + 1]){
-			int temp = goals[i];
+			temp = goals[i];
 			goals[i] = goals[i + 1];
 			goals[i + 1] = temp;
 			swapped = 1;
